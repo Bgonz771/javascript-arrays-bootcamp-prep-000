@@ -28,7 +28,7 @@ function destructivelyAddElementToBeginningOfArray(array, element){
  }
  
  function destructivelyRemoveElementFromBeginningOfArray(array){
-   return array.shift();
+   return array.unshift();
 
 }
 
